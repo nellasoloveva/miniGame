@@ -103,8 +103,7 @@ function aye() {
 startGame.onclick = function() {
     aye();
 }
-
-box.addEventListener("keydown", function (event) {
+document.addEventListener("keydown", function (event) {
     if (event.code != "ArrowRight" && event.code != "ArrowLeft" && event.code != "ArrowUp" && event.code != "ArrowDown") {
         return;
     }
