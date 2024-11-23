@@ -146,7 +146,7 @@ document.addEventListener("keydown", function (event) {
     
     if (checkCollision()) {
         score++;
-        scoreDisplay.textContent = "Счет: " + score;
+        scoreDisplay.textContent = "score: " + score;
         moveTarget(); 
     }
 });
